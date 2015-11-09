@@ -1,13 +1,19 @@
-.button-big-green{
+.btn{
+	display: block;
 	text-align: center;
-	height: 55px;
-	width: 100%;
-	color: white;
-	background: $green-dark;
-	font-size: 20px;
 	cursor: pointer;
 	border: none;
+}
 
+.btn-lg{
+	width: 100%;
+	height: 55px;
+	font-size: 20px;
+}
+
+.btn-green{
+	color: white;
+	background: $green-dark;
 	&:hover{
 		background: $green-light;
 	}

@@ -8,7 +8,9 @@
 			background: #f4f4f4;
 			border: none;
 			padding-left: 28px;
-			li {}
+
+
+
 			.ui-state-default {
 				background: $green-light;
 				border-top-left-radius: 3px;
@@ -34,6 +36,7 @@
 		.ui-widget-content {
 			color: $dark;
 			font-size: 14px;
+
 			a {
 				color: $green-dark;
 				font-size: 14px;
@@ -46,6 +49,22 @@
 			h3{
 				font-weight: normal;
 				font-size: 18px;
+			}
+		}
+
+		.ui-widget-content, .ui-tabs-nav{
+			position: relative;
+    		top: -37px;
+		}
+	}
+
+	aside{
+		.membership-block{
+			margin-top: 25px;
+
+			.aside-body{
+				color: $gray;
+				position: relative;
 			}
 		}
 	}
