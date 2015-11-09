@@ -16,10 +16,10 @@ gulp.task('connect', function() {
 });
 
 gulp.task('sass', function () {
-	gulp.src('style.scss')
+	gulp.src('app/scss/style.scss')
 		.pipe(sass.sync().on('error', sass.logError))
 		.pipe(autoprefixer('last 2 version', 'ie 8', 'ie 9', 'ios 6', 'android 4'))
-		.pipe(gulp.dest('public/css'))
+		.pipe(gulp.dest('public/css/'))
 		.pipe(connect.reload());
 });
 
@@ -30,7 +30,7 @@ gulp.task('html', function () {
 
 gulp.task('watch', function () {
 	gulp.watch('app/scss/**/*.scss', ['sass']);
-	gulp.watch('index.html', ['html']);
+	gulp.watch('public/index.html', ['html']);
 });
 
 gulp.task('default', ['connect' ,'watch', 'html', 'sass']);
