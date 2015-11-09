@@ -1,72 +1,26 @@
 @import 'bower_components/jeet/scss/jeet/index';
 @import 'palette.scss';
 @import 'components/text.scss';
-
+@import 'partials/features.scss';
+@import 'partials/plugin.scss';
 $jeet-gutter: 0;
-
-
-body{
+body {
 	background-color: #f4f4f4;
 }
 
-.container{
+.container {
 	@include center(1075px);
 }
 
-.section-features{
-
-	.large-text{
-		font-size: 18px;
-		font-weight: 400;
-		line-height: 10px;
-		span{
-			font-size: 38px;
-			text-transform: uppercase;
-			font-weight: 600;
-			line-height: 35px;
-
-		}
-	}
-
-	p{
-		margin: 0;
-	}
-
-
-	.feature{
-		background: white;
-		padding-top: 11px;
-		height: 70px;
-	}
-
-	.feature:nth-child(1){
-		@include col(.325, $gutter: .5);
-		.large-text{
-			@include col(.128, $offset: .1);
-		}
-		.description{
-			@include col(.7, $offset: .04);
-
-		}
-
-		.black-text{
-			font-size: 18px;
-		}
-
-		.gray-text{
-			font-size: 13px;
-		}
-
-		.green-text{
-			font-size: 12px;
-		}
-
-	}
-	.feature:nth-child(2){
-		@include col(.325, $gutter: .5);
-	}
-	.feature:nth-child(3){
-		@include col(.325);
-	}
-
+.third{
+	@include span(1/3);
 }
+
+.two-thirds{
+	@include span(2/3);
+}
+
+.section-features .feature, .section-plugin{
+	background: white;
+}
+
