@@ -6,6 +6,10 @@
 @import 'components/links.scss';
 @import 'components/buttons.scss';
 @import 'partials/aside.scss';
+@import 'partials/about-plugin.scss';
+
+
+
 $jeet-gutter: 0;
 body {
 	background-color: #f4f4f4;
@@ -13,6 +17,10 @@ body {
 
 .container {
 	@include center(1075px);
+}
+
+.container-fluid{
+	@include center(100%);
 }
 
 .wrapper-section{

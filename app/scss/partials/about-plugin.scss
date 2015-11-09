@@ -1,0 +1,52 @@
+.about-plugin-section {
+	background: white;
+
+	#tabs {
+		border: none;
+		padding: 0;
+		.ui-tabs-nav {
+			background: #f4f4f4;
+			border: none;
+			padding-left: 28px;
+			li {}
+			.ui-state-default {
+				background: $green-light;
+				border-top-left-radius: 3px;
+				border-top-right-radius: 3px;
+				height: 31px;
+				a {
+					color: white;
+				}
+			}
+			.ui-state-active {
+				border-radius: 0;
+				border-color: $green-dark;
+				background: white;
+				a {
+					color: $green-light;
+				}
+			}
+		}
+		.ui-tabs-panel {
+			border-top: 1px solid $green-light;
+
+		}
+		.ui-widget-content {
+			color: $dark;
+			font-size: 14px;
+			a {
+				color: $green-dark;
+				font-size: 14px;
+				text-decoration: none;
+				&:hover {
+					color: $green-light;
+				}
+			}
+
+			h3{
+				font-weight: normal;
+				font-size: 18px;
+			}
+		}
+	}
+}

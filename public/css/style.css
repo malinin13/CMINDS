@@ -268,7 +268,8 @@ b {
 
 .section-plugin {
   padding-top: 34px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  margin-bottom: 27px; }
   .section-plugin .header-block .header-img, .section-plugin .header-block .header {
     display: inline-block;
     vertical-align: top; }
@@ -411,6 +412,43 @@ aside .aside-body {
 aside .footer, aside .footer a {
   font-size: 13px; }
 
+.about-plugin-section {
+  background: white; }
+  .about-plugin-section #tabs {
+    border: none;
+    padding: 0; }
+    .about-plugin-section #tabs .ui-tabs-nav {
+      background: #f4f4f4;
+      border: none;
+      padding-left: 28px; }
+      .about-plugin-section #tabs .ui-tabs-nav .ui-state-default {
+        background: #659b2e;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        height: 31px; }
+        .about-plugin-section #tabs .ui-tabs-nav .ui-state-default a {
+          color: white; }
+      .about-plugin-section #tabs .ui-tabs-nav .ui-state-active {
+        border-radius: 0;
+        border-color: #467920;
+        background: white; }
+        .about-plugin-section #tabs .ui-tabs-nav .ui-state-active a {
+          color: #659b2e; }
+    .about-plugin-section #tabs .ui-tabs-panel {
+      border-top: 1px solid #659b2e; }
+    .about-plugin-section #tabs .ui-widget-content {
+      color: #333333;
+      font-size: 14px; }
+      .about-plugin-section #tabs .ui-widget-content a {
+        color: #467920;
+        font-size: 14px;
+        text-decoration: none; }
+        .about-plugin-section #tabs .ui-widget-content a:hover {
+          color: #659b2e; }
+      .about-plugin-section #tabs .ui-widget-content h3 {
+        font-weight: normal;
+        font-size: 18px; }
+
 body {
   background-color: #f4f4f4; }
 
@@ -428,6 +466,22 @@ body {
     content: '';
     display: table; }
   .container:after {
+    clear: both; }
+
+.container-fluid {
+  *zoom: 1;
+  width: auto;
+  max-width: 100%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0; }
+  .container-fluid:before, .container-fluid:after {
+    content: '';
+    display: table; }
+  .container-fluid:after {
     clear: both; }
 
 .wrapper-section {
