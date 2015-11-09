@@ -27,7 +27,7 @@
 		top: 11px;
 	}
 
-	&:hover{
+	&:hover, &:focus{
 		background: #f0f0f0;
 		.link-wrapper{
 			background: #e6e6e6;

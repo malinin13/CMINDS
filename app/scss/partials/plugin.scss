@@ -1,6 +1,6 @@
 .section-plugin{
 	padding-top: 34px;
-	padding-bottom: 33px;
+	padding-bottom: 10px;
 	.wrapper{
 		@include col(.96, $offset:.025);
 	}
@@ -54,6 +54,72 @@
 		.inform{
 			max-width: 340px;
 			font-size: 16px;
+		}
+	}
+
+	.buy-plugin-block{
+		.choose-license-block{
+			box-shadow: -2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+			border: 1px solid #e6e6e6;
+		}
+
+		.header, .footer{
+			height: 36px;
+			background-color: #e6e6e6;
+			padding-left: 18px;
+			box-sizing: border-box;
+		}
+
+		.header{
+
+			font-size: 18px;
+			padding-top: 5px;
+			position: relative;
+
+			.sales-count{
+				background: url(../img/Forma1.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				width: 70px;
+				height: 70px;
+				color: white;
+				font-size: 18px;
+				position: absolute;
+				right: -15px;
+				top: -15px;
+				padding-left: 23px;
+				padding-top: 15px;
+			}
+		}
+
+		.select-license-block{
+			padding-left: 18px;
+			padding-right: 18px;
+			font-size: 14px;
+			color: $gray;
+
+			input{
+				margin-bottom: 10px;
+			}
+
+			p{
+				font-weight: bold;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+
+		}
+
+		.footer, .footer a{
+			font-size: 13px;
+		}
+
+		.footer{
+			color: $gray;
+		}
+
+		button{
+			margin-top: 16px;
 		}
 	}
 

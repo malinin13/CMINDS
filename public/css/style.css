@@ -142,6 +142,8 @@ a {
   color: #467920;
   font-size: 14px;
   text-decoration: none; }
+  a:hover {
+    color: #659b2e; }
 
 .text-center {
   text-align: center !important; }
@@ -266,7 +268,7 @@ b {
 
 .section-plugin {
   padding-top: 34px;
-  padding-bottom: 33px; }
+  padding-bottom: 10px; }
   .section-plugin .wrapper {
     *zoom: 1;
     float: left;
@@ -336,6 +338,48 @@ b {
   .section-plugin .presentation-block .inform {
     max-width: 340px;
     font-size: 16px; }
+  .section-plugin .buy-plugin-block .choose-license-block {
+    box-shadow: -2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    border: 1px solid #e6e6e6; }
+  .section-plugin .buy-plugin-block .header, .section-plugin .buy-plugin-block .footer {
+    height: 36px;
+    background-color: #e6e6e6;
+    padding-left: 18px;
+    box-sizing: border-box; }
+  .section-plugin .buy-plugin-block .header {
+    font-size: 18px;
+    padding-top: 5px;
+    position: relative; }
+    .section-plugin .buy-plugin-block .header .sales-count {
+      background: url(../img/Forma1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 70px;
+      height: 70px;
+      color: white;
+      font-size: 18px;
+      position: absolute;
+      right: -15px;
+      top: -15px;
+      padding-left: 23px;
+      padding-top: 15px; }
+  .section-plugin .buy-plugin-block .select-license-block {
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 14px;
+    color: #808080; }
+    .section-plugin .buy-plugin-block .select-license-block input {
+      margin-bottom: 10px; }
+    .section-plugin .buy-plugin-block .select-license-block p {
+      font-weight: bold;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+  .section-plugin .buy-plugin-block .footer, .section-plugin .buy-plugin-block .footer a {
+    font-size: 13px; }
+  .section-plugin .buy-plugin-block .footer {
+    color: #808080; }
+  .section-plugin .buy-plugin-block button {
+    margin-top: 16px; }
 
 .custom-link-gray {
   padding-right: 15px;
@@ -359,10 +403,22 @@ b {
     position: absolute;
     left: 7px;
     top: 11px; }
-  .custom-link-gray:hover {
+  .custom-link-gray:hover, .custom-link-gray:focus {
     background: #f0f0f0; }
-    .custom-link-gray:hover .link-wrapper {
+    .custom-link-gray:hover .link-wrapper, .custom-link-gray:focus .link-wrapper {
       background: #e6e6e6; }
+
+.button-big-green {
+  text-align: center;
+  height: 55px;
+  width: 100%;
+  color: white;
+  background: #467920;
+  font-size: 20px;
+  cursor: pointer;
+  border: none; }
+  .button-big-green:hover {
+    background: #659b2e; }
 
 body {
   background-color: #f4f4f4; }

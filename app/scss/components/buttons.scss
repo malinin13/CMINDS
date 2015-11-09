@@ -1,0 +1,14 @@
+.button-big-green{
+	text-align: center;
+	height: 55px;
+	width: 100%;
+	color: white;
+	background: $green-dark;
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+
+	&:hover{
+		background: $green-light;
+	}
+}
