@@ -1,9 +1,6 @@
 .section-plugin{
 	padding-top: 34px;
 	padding-bottom: 10px;
-	.wrapper{
-		@include col(.96, $offset:.025);
-	}
 
 
 	.header-block{
@@ -63,18 +60,9 @@
 			border: 1px solid #e6e6e6;
 		}
 
-		.header, .footer{
-			height: 36px;
-			background-color: #e6e6e6;
-			padding-left: 18px;
-			box-sizing: border-box;
-		}
+
 
 		.header{
-
-			font-size: 18px;
-			padding-top: 5px;
-			position: relative;
 
 			.sales-count{
 				background: url(../img/Forma1.png);
@@ -93,8 +81,6 @@
 		}
 
 		.select-license-block{
-			padding-left: 18px;
-			padding-right: 18px;
 			font-size: 14px;
 			color: $gray;
 
@@ -108,10 +94,6 @@
 				margin-bottom: 5px;
 			}
 
-		}
-
-		.footer, .footer a{
-			font-size: 13px;
 		}
 
 		.footer{

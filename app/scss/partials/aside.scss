@@ -1,0 +1,24 @@
+aside {
+	.header,
+	.footer {
+		height: 36px;
+		background-color: #e6e6e6;
+		padding-left: 18px;
+		box-sizing: border-box;
+	}
+
+	.header{
+		font-size: 18px;
+			padding-top: 5px;
+			position: relative;
+	}
+
+	.aside-body{
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+
+	.footer, .footer a{
+			font-size: 13px;
+		}
+}
