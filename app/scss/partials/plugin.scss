@@ -1,10 +1,10 @@
 .section-plugin{
 	padding-top: 34px;
 	padding-bottom: 33px;
-
-	.presentation{
-		@include col(.96, $offset: .025);
+	.wrapper{
+		@include col(.96, $offset:.025);
 	}
+
 
 	.header-block{
 		.header-img, .header{

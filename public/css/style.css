@@ -267,7 +267,7 @@ b {
 .section-plugin {
   padding-top: 34px;
   padding-bottom: 33px; }
-  .section-plugin .presentation {
+  .section-plugin .wrapper {
     *zoom: 1;
     float: left;
     clear: none;
@@ -275,12 +275,12 @@ b {
     width: 95.88%;
     margin-left: 2.575%;
     margin-right: 3%; }
-    .section-plugin .presentation:before, .section-plugin .presentation:after {
+    .section-plugin .wrapper:before, .section-plugin .wrapper:after {
       content: '';
       display: table; }
-    .section-plugin .presentation:after {
+    .section-plugin .wrapper:after {
       clear: both; }
-    .section-plugin .presentation:last-child {
+    .section-plugin .wrapper:last-child {
       margin-right: 0%; }
   .section-plugin .header-block .header-img, .section-plugin .header-block .header {
     display: inline-block;
