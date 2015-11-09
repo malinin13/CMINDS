@@ -3,7 +3,7 @@
 	padding-bottom: 33px;
 
 	.presentation{
-		@include col(.96, $offset: .04);
+		@include col(.96, $offset: .025);
 	}
 
 	.header-block{
@@ -30,7 +30,31 @@
 		}
 	}
 	.presentation-block{
+		.information-block{
+			@include span(.49);
+			vertical-align: top;
+			p{
+				margin-top: 0;
+			}
+		}
 
+		.video-block{
+			@include col(.38, $offset: .03);
+
+			.video-wrapper{
+				height: 140px;
+			}
+
+			img{
+				width: 250px;
+				height: 140px;
+			}
+		}
+
+		.inform{
+			max-width: 340px;
+			font-size: 16px;
+		}
 	}
 
 }

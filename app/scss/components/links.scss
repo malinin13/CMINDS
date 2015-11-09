@@ -1,0 +1,36 @@
+.custom-link-gray {
+	padding-right: 15px;
+	display: inline-block;
+	position: relative;
+	.link-wrapper{
+		display: inline-block;
+		height: 40px;
+
+		box-sizing: border-box;
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-right: 20px;
+		position: relative;
+		vertical-align: middle;
+	}
+
+	i{
+		position: absolute;
+		right: 10px;
+		font-size: 22px;
+		top: 9px;
+	}
+
+	img{
+		position: absolute;
+		left: 7px;
+		top: 11px;
+	}
+
+	&:hover{
+		background: #f0f0f0;
+		.link-wrapper{
+			background: #e6e6e6;
+		}
+	}
+}
